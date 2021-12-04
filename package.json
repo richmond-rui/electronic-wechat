@@ -1,6 +1,6 @@
 {
   "name": "electronic-wechat",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "An Electron application for WeChat",
   "main": "src/main.js",
   "scripts": {
@@ -32,19 +32,20 @@
   },
   "homepage": "https://github.com/geeeeeeeeek/wechat-electron/",
   "dependencies": {
-    "electron": "^1.4.15",
-    "electron-packager": "^8.5.1",
-    "nconf": "^0.8.4",
-    "pinyin": "^2.8.0",
-    "emojione": "^2.2.7",
-    "electron-localshortcut": "github:parro-it/electron-localshortcut#b1119d46c0582263a7c20c1bcd710476dafcfe01"
+    "core-js": "^3.19.2",
+    "electron": "^7.3.3",
+    "electron-localshortcut": "github:parro-it/electron-localshortcut#b1119d46c0582263a7c20c1bcd710476dafcfe01",
+    "electron-packager": "^15.4.0",
+    "emojione": "^4.5.0",
+    "nconf": "^0.11.3",
+    "pinyin": "^2.10.2"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
-    "eslint": "^3.15.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.9.0"
+    "eslint": "^8.4.0",
+    "eslint-config-airbnb": "^19.0.2",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1"
   }
 }

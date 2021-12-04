@@ -29,7 +29,9 @@ class AppTray {
     fs.readFile(this.TRAY_CONFIG_PATH, (err, data) => {
       if (err) {
         this.trayColor = 'white';
-        fs.writeFile(this.TRAY_CONFIG_PATH, '{"color":"white"}');
+        fs.writeFile(this.TRAY_CONFIG_PATH, '{"color":"white"}',function(msg){
+          console.log("fs.writeFile==",msg);
+        });
       } else {
         this.trayColor = JSON.parse(data.toString()).color;
       }

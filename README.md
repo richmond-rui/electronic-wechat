@@ -4,9 +4,22 @@
 
 *A better WeChat on macOS and Linux. Built with [Electron](https://github.com/atom/electron).*
 
-## ** 202112 05  更新 **
+# 由于原项目已停止维护，但是我又很喜欢这个项目，同时我有个龙芯电脑，所以自己重新维护了一下
+
+## ** 202112 05  更新 (提供龙芯版本) **
 更新所有依赖库版本，重新打包，可以x86 可以正常运行。
-mips64el 也打包了一个版本，但是由于龙芯electron 官方最新可用版本，也仅支持1.8.8,所以运行会由于系统库比较新导致报错，可以尝试按照这个博客去解决（X86 这个办法可以解决，mips64el 未验证） [解决办法](https://www.cnblogs.com/cocode/p/12890684.html)
+同时打包了龙芯版本，理论上只要是mips64el架构的应该都可以运行
+### 注意，龙芯可能会遇到chrome-sandbox is owned by root and has mode 4755 报错
+#### 解决办法在解包后的项目下运行
+
+```
+sudo chown root chrome-sandbox && sudo chmod 4755 chrome-sandbox
+
+```
+
+[下载地址](https://github.com/richmond-rui/electronic-wechat/releases/tag/v2.0.1)
+
+## 以下为原项目说明 
 
 > **⚠️⚠️ NO LONGER IN ACTIVE DEVELOPMENT | 项目不再维护 ⚠️⚠️** 
 > 

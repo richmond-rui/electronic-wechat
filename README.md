@@ -4,6 +4,10 @@
 
 *A better WeChat on macOS and Linux. Built with [Electron](https://github.com/atom/electron).*
 
+** 202112 05  更新 **
+更新所有依赖库版本，重新打包，可以x86 可以正常运行。
+mips64el 也打包了一个版本，但没有测试是否可以运行。如果报错，可以尝试按照这个博客去解决 [解决办法](https://www.cnblogs.com/cocode/p/12890684.html)
+
 > **⚠️⚠️ NO LONGER IN ACTIVE DEVELOPMENT | 项目不再维护 ⚠️⚠️** 
 > 
 > Thanks for supporting this project for **1000** days since Feb 16, 2016. 
